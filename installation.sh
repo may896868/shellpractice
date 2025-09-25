@@ -22,7 +22,7 @@ if [ $? -ne 0 ]; then
     echo "Error : installing nginx is failed"
     exit 1
 else
-    echo "installing mysql is success"
+    echo "installing nginx is success"
 fi
 
 dnf install python3 -y
