@@ -1,7 +1,7 @@
 #!/bin/bash
 
-date =$(date)
-echo "date :: $date"
+DATE =$(date)
+echo "date :: $DATE"
 
 START_TIME=$(date +%s)
 echo "start time :: $START_TIME"
@@ -13,4 +13,4 @@ echo "end time :: $END_TIME"
 
 
 TOTAL_TIME=$(($END_TIME-$STRT_TIME))
-echo "script executed time :: $TOTAL_TIME"
+echo "script executed time :: $TOTAL_TIME seconds"
