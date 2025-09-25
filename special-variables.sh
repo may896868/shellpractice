@@ -4,7 +4,7 @@ echo "All variables passed to the script : $@"
 echo "All variables passed to the script : $*"
 echo "script name : $0"
 echo "current directory : $PWD"
-echo "User name : $ USER"
+echo "User name : $USER"
 echo "user home dir : $HOME"
 echo "pid of thi script : $$"
 
