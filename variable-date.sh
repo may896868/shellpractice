@@ -12,5 +12,5 @@ END_TIME=$(date +%s)
 echo "end time :: $END_TIME"
 
 
-TOTAL_TIME=$(($END_TIME-$STRT_TIME))
+TOTAL_TIME=$(($END_TIME-$START_TIME))
 echo "script executed time :: $TOTAL_TIME seconds"
