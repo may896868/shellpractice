@@ -7,3 +7,6 @@ N="\e[0m"
 
 echo -e "$G OM ARUNACHA SIVA"
 echo "om namo bagavathe sri ramanaya" 
+
+echo -e "$G OM ARUNACHA SIVA $N"
+echo "om namo bagavathe sri ramanaya" 
