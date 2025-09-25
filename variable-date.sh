@@ -1,7 +1,6 @@
 #!/bin/bash
 
-VALUE =$(date)
-echo "date :: $VALUE"
+echo "Current date and time: $(date)"
 
 START_TIME=$(date +%s)
 echo "start time :: $START_TIME"
