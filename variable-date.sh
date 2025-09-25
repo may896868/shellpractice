@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DATE =$(date)
-echo "date :: $DATE"
+VALUE =$(date)
+echo "date :: $VALUE"
 
 START_TIME=$(date +%s)
 echo "start time :: $START_TIME"
