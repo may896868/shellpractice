@@ -11,3 +11,4 @@ echo "pid of thi script : $$"
 sleep 50 &
 
 echo "pid of the last command in background : $!"
+echo "exit code for the program : $?"
