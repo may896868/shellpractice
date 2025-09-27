@@ -14,16 +14,16 @@ mkdir -p $LOGS_FOLDER
 echo " script started executed at $(date)"
 
 if [ $USERID -ne 0 ]; then
-    echo "ERROR : PLEASE RUN THIS SCRIPT  WITH root privileges"
+    echo -e "$RERROR : PLEASE RUN THIS SCRIPT  WITH root privileges$N"
     exit 1
 fi
 
 VALIDATE(){
     if [ $1 -ne 0 ]; then
-        echo " installing $2 is $R FAILED $N"
+        echo -e " installing $2 is $R FAILED $N"
         exit 1
     else
-        echo "installing $2 is $R SUCCESS $N"
+        echo -e "installing $2 is $R SUCCESS $N"
     fi
 }
 
